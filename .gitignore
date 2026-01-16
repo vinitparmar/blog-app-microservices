@@ -1,0 +1,17 @@
+# Maven
+target/
+*.log
+
+# IDE
+.classpath
+.project
+.settings/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Secrets
+application-*.yml
+*.env
