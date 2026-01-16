@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: auth-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/authdb
+    username: postgres
+    password: postgres
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8081
+
+
+jwt:
+  secret: 8f7d9c3e2a1b4c6d9e0f8a7b6c5d4e3f
+  expiration: 3600000
